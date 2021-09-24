@@ -13,5 +13,6 @@ public class TC_HomePage_001 extends BaseClass {
 		driver.manage().window().maximize();
         Thread.sleep(5000);
 		hp.Click_BNP_Footer();
+		System.out.println("footer");
 	}
 }
